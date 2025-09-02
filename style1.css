@@ -692,6 +692,7 @@ footer a:hover {
   #intro {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .about-section{
@@ -728,6 +729,7 @@ footer a:hover {
   }
   #intro{
     width:100%; 
+    flex-wrap: wrap;
   }
 
   .imgmy {
@@ -750,6 +752,10 @@ footer a:hover {
     flex-direction: column;
   }
 
+  #intro{
+    flex-wrap: wrap;
+  }
+  
   .about-section{
     display: flex;
     flex-direction: column;
